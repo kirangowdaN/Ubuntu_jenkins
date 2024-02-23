@@ -7,14 +7,15 @@ pipeline
 			{
 			steps
 				{
-				git "https://github.com/SreekanthJaladanki/Jenkins_practice.git"
+				git "https://github.com/Lohithreddy-k/Ubuntu_jenkins.git"
 				}
 			}
 		stage("run")
 			{
 			steps
 				{
-				sh "java Demo.java"
+				sh "java demo.java"
+				sh "python main.py"
 				}
 			}
 		}
