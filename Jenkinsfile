@@ -1,6 +1,8 @@
 pipeline 
 	{	
-	agent any
+	agent {
+		lable "us1"
+	}
 	stages
 		{
 		stage("git")
