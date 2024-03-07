@@ -14,7 +14,7 @@ pipeline
 			{
 			steps
 				{
-				sh "mvn clean"
+				sh "java Demo.java"
 				}
 			}
 		}
