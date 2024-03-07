@@ -7,7 +7,7 @@ pipeline
 			{
 			steps
 				{
-				git branch: 'main', url: 'https://github.com/ramyachetty/maven.git'
+				https://github.com/Lohithreddy-k/task0226.git
 				}
 			}
 		stage("run")
