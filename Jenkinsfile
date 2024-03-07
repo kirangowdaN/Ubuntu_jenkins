@@ -7,15 +7,14 @@ pipeline
 			{
 			steps
 				{
-				git "https://github.com/kirangowdaN/Ubuntu_jenkins.git"
+				git "https://github.com/ramyachetty/maven.git"
 				}
 			}
 		stage("run")
 			{
 			steps
 				{
-				sh "java demo.java"
-				sh "python3 main.py"
+				sh "mvn clean"
 				}
 			}
 		}
