@@ -9,14 +9,14 @@ pipeline
 			{
 			steps
 				{
-				git "https://github.com/Lohithreddy-k/task0226.git"
+				git branch: 'main', url: 'https://github.com/ramyachetty/maven.git'
 				}
 			}
 		stage("run")
 			{
 			steps
 				{
-				sh "java Demo.java"
+				sh "mvn clean"
 				}
 			}
 		}
